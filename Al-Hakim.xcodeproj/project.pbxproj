@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0056809A2C0A60FFA7BBCEA4 /* Pods_Al_Hakim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B80D0C69B92FC61A5FA221 /* Pods_Al_Hakim.framework */; };
 		597E8F111CB5C43100A820F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597E8F101CB5C43100A820F2 /* AppDelegate.swift */; };
 		597E8F131CB5C43100A820F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597E8F121CB5C43100A820F2 /* ViewController.swift */; };
 		597E8F161CB5C43100A820F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597E8F141CB5C43100A820F2 /* Main.storyboard */; };
 		597E8F181CB5C43100A820F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 597E8F171CB5C43100A820F2 /* Assets.xcassets */; };
 		597E8F1B1CB5C43100A820F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597E8F191CB5C43100A820F2 /* LaunchScreen.storyboard */; };
+		597E8F241CB5DA7000A820F2 /* MainMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597E8F231CB5DA7000A820F2 /* MainMenuCollectionViewCell.swift */; };
+		597E8F271CB5DD5600A820F2 /* Resource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 597E8F261CB5DD5600A820F2 /* Resource.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,11 @@
 		597E8F171CB5C43100A820F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		597E8F1A1CB5C43100A820F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		597E8F1C1CB5C43100A820F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		597E8F231CB5DA7000A820F2 /* MainMenuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		597E8F261CB5DD5600A820F2 /* Resource.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Resource.plist; sourceTree = "<group>"; };
+		68B80D0C69B92FC61A5FA221 /* Pods_Al_Hakim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Al_Hakim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D3D0BDD53435C9B13E7713 /* Pods-Al-Hakim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Al-Hakim.release.xcconfig"; path = "Pods/Target Support Files/Pods-Al-Hakim/Pods-Al-Hakim.release.xcconfig"; sourceTree = "<group>"; };
+		B6CD4FE47470B604753FF95A /* Pods-Al-Hakim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Al-Hakim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Al-Hakim/Pods-Al-Hakim.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0056809A2C0A60FFA7BBCEA4 /* Pods_Al_Hakim.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EECDEDBDFEE204E511F19DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6CD4FE47470B604753FF95A /* Pods-Al-Hakim.debug.xcconfig */,
+				74D3D0BDD53435C9B13E7713 /* Pods-Al-Hakim.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		597E8F041CB5C43100A820F2 = {
 			isa = PBXGroup;
 			children = (
 				597E8F0F1CB5C43100A820F2 /* Al-Hakim */,
 				597E8F0E1CB5C43100A820F2 /* Products */,
+				0EECDEDBDFEE204E511F19DB /* Pods */,
+				8FECBBC7CC96863B80B5CE7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +75,39 @@
 			isa = PBXGroup;
 			children = (
 				597E8F101CB5C43100A820F2 /* AppDelegate.swift */,
-				597E8F121CB5C43100A820F2 /* ViewController.swift */,
 				597E8F141CB5C43100A820F2 /* Main.storyboard */,
+				597E8F251CB5DD1500A820F2 /* Controller */,
+				597E8F221CB5DA4200A820F2 /* View */,
 				597E8F171CB5C43100A820F2 /* Assets.xcassets */,
 				597E8F191CB5C43100A820F2 /* LaunchScreen.storyboard */,
 				597E8F1C1CB5C43100A820F2 /* Info.plist */,
+				597E8F261CB5DD5600A820F2 /* Resource.plist */,
 			);
 			path = "Al-Hakim";
+			sourceTree = "<group>";
+		};
+		597E8F221CB5DA4200A820F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				597E8F231CB5DA7000A820F2 /* MainMenuCollectionViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		597E8F251CB5DD1500A820F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				597E8F121CB5C43100A820F2 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8FECBBC7CC96863B80B5CE7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68B80D0C69B92FC61A5FA221 /* Pods_Al_Hakim.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 597E8F1F1CB5C43100A820F2 /* Build configuration list for PBXNativeTarget "Al-Hakim" */;
 			buildPhases = (
+				2288FF6978F57FC5E6BFDFCE /* Check Pods Manifest.lock */,
 				597E8F091CB5C43100A820F2 /* Sources */,
 				597E8F0A1CB5C43100A820F2 /* Frameworks */,
 				597E8F0B1CB5C43100A820F2 /* Resources */,
+				9EA6C3D613F5BEC65FF1F387 /* Embed Pods Frameworks */,
+				433169E210FDAF87F0C1F8C7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +145,7 @@
 				TargetAttributes = {
 					597E8F0C1CB5C43100A820F2 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2MFU9WB222;
 					};
 				};
 			};
@@ -122,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597E8F271CB5DD5600A820F2 /* Resource.plist in Resources */,
 				597E8F1B1CB5C43100A820F2 /* LaunchScreen.storyboard in Resources */,
 				597E8F181CB5C43100A820F2 /* Assets.xcassets in Resources */,
 				597E8F161CB5C43100A820F2 /* Main.storyboard in Resources */,
@@ -130,6 +181,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2288FF6978F57FC5E6BFDFCE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		433169E210FDAF87F0C1F8C7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Al-Hakim/Pods-Al-Hakim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EA6C3D613F5BEC65FF1F387 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Al-Hakim/Pods-Al-Hakim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		597E8F091CB5C43100A820F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +236,7 @@
 			files = (
 				597E8F131CB5C43100A820F2 /* ViewController.swift in Sources */,
 				597E8F111CB5C43100A820F2 /* AppDelegate.swift in Sources */,
+				597E8F241CB5DA7000A820F2 /* MainMenuCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +349,12 @@
 		};
 		597E8F201CB5C43100A820F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6CD4FE47470B604753FF95A /* Pods-Al-Hakim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Al-Hakim/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "id.co.alhakim.Al-Hakim";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,9 +363,12 @@
 		};
 		597E8F211CB5C43100A820F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D3D0BDD53435C9B13E7713 /* Pods-Al-Hakim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Al-Hakim/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "id.co.alhakim.Al-Hakim";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,6 +394,7 @@
 				597E8F211CB5C43100A820F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_Al_Hakim {
+  umbrella header "Pods-Al-Hakim-umbrella.h"
+
+  export *
+  module * { export * }
+}

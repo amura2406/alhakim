@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Al Hakim</string>
+		<key>detail</key>
+		<string>Tentang Kami</string>
+		<key>background</key>
+		<string>bg1</string>
+	</dict>
+    <dict>
+        <key>title</key>
+        <string>Masjid Kita</string>
+        <key>detail</key>
+        <string></string>
+        <key>background</key>
+        <string>bg2</string>
+    </dict>
+    <dict>
+        <key>title</key>
+        <string>Agenda</string>
+        <key>detail</key>
+        <string>Jadwal Ceramah Rutin</string>
+        <key>background</key>
+        <string>bg3</string>
+    </dict>
+    <dict>
+        <key>title</key>
+        <string>Perpustakaan</string>
+        <key>detail</key>
+        <string></string>
+        <key>background</key>
+        <string>bg4</string>
+    </dict>
+    <dict>
+        <key>title</key>
+        <string>Klinik Dhuafa</string>
+        <key>detail</key>
+        <string></string>
+        <key>background</key>
+        <string>bg5</string>
+    </dict>
+    <dict>
+        <key>title</key>
+        <string>TPA</string>
+        <key>detail</key>
+        <string>Taman Pendidikan Al-Qur'an</string>
+        <key>background</key>
+        <string>bg6</string>
+    </dict>
+    <dict>
+        <key>title</key>
+        <string>Forum Muslimah</string>
+        <key>detail</key>
+        <string></string>
+        <key>background</key>
+        <string>bg7</string>
+    </dict>
+    <dict>
+        <key>title</key>
+        <string>Anak Asuh</string>
+        <key>detail</key>
+        <string></string>
+        <key>background</key>
+        <string>bg8</string>
+    </dict>
+    <dict>
+        <key>title</key>
+        <string>Warta Al-Hakim</string>
+        <key>detail</key>
+        <string></string>
+        <key>background</key>
+        <string>bg9</string>
+    </dict>
+    <dict>
+        <key>title</key>
+        <string>Risalah</string>
+        <key>detail</key>
+        <string></string>
+        <key>background</key>
+        <string>bg10</string>
+    </dict>
+</array>
+</plist>
